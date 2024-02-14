@@ -95,6 +95,7 @@ const registationStyle = {
         display: "inline"
     },
     bodyContainerStyle: {
+        
         flexWrap: "wrap" as "wrap",
         margin: "150px auto 0px",
         width: "280px",
