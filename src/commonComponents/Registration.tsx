@@ -100,6 +100,7 @@ const registationStyle = {
         width: "280px",
         height: "55px",
     },
+    
     textStyle: {
     },
     formContainerStyle: {
