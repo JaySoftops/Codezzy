@@ -4,12 +4,12 @@ import logo from "../assets/logo.png";
 
 export default function Header() {
     return (
-        <Grid container lg={12} sm={12} xs={12} xl={12} md={12} style={headerStyle.containerStyle}>
+        <Grid container spacing={2} lg={12} sm={12} xs={12} xl={12} md={12} style={headerStyle.containerStyle}>
             <Grid container lg={1} sm={1} xs={1} xl={1} md={1} style={headerStyle.logoContainerStyle}>
                 <img src={logo} alt="logo" style={headerStyle.logo} />
             </Grid>
             <Grid container lg={4} sm={4} xs={4} xl={4} md={4}  ></Grid>
-            <Grid container lg={5} sm={5} xs={5} xl={5} md={5} style={headerStyle.navigationStyle}>
+            <Grid container spacing={1} lg={5} sm={5} xs={5} xl={5} md={5} style={headerStyle.navigationStyle}>
                 <Typography variant="body1" style={headerStyle.navStyle}>Home</Typography>
                 <Typography variant="body1" style={headerStyle.navStyle}>Coursrs</Typography>
                 <Typography variant="body1" style={headerStyle.navStyle}>Events</Typography>
