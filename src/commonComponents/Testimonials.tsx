@@ -79,7 +79,7 @@ const DATA = [
 const useStyles = makeStyles((theme) => ({
     container: {
         height: "50rem",
-        backgroundColor: "#FFFBF5",
+        backgroundColor: "#FFFFF",
         display: "block",
         padding: "2rem",
         marginTop: "50px",
